@@ -67,15 +67,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 12468}
+      Script: {instanceID: 11872}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 11948}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 12472}
     - Class: 114
-      Script: {instanceID: 17552}
+      Script: {instanceID: 12700}
     - Class: 114
-      Script: {instanceID: 18516}
+      Script: {instanceID: 13084}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -124,15 +124,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 12186}
+      Script: {instanceID: 12190}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 12700}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 13012}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 13084}
     - Class: 114
-      Script: {instanceID: 13112}
+      Script: {instanceID: 13116}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -183,17 +183,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 12186}
+      Script: {instanceID: 11872}
     - Class: 114
-      Script: {instanceID: 12468}
+      Script: {instanceID: 12190}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 12472}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 12700}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 13012}
     - Class: 114
-      Script: {instanceID: 17552}
+      Script: {instanceID: 13084}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -415,6 +415,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: bf402da4cd181a8d7ea0376cada99765
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mole
+  - hash:
+      serializedVersion: 2
+      Hash: f5e27267e77db70acb5566be1aa24000
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Score
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -661,18 +673,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: bf402da4cd181a8d7ea0376cada99765
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Mole
-  - hash:
-      serializedVersion: 2
-      Hash: f5e27267e77db70acb5566be1aa24000
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Score
   platform: 13
   scenePathNames:
   - Assets/Scenes/Start Menu.unity
