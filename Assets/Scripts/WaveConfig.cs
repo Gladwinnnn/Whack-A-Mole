@@ -7,10 +7,10 @@ public class WaveConfig : ScriptableObject
 {
     [SerializeField] GameObject molePrefab;
     [SerializeField] GameObject pathPrefab;
-    [SerializeField] float timeBetweenSpawns = 0.5f;
-    [SerializeField] float spawnRandomFactor = 0.3f;
-    [SerializeField] int numberOfEnemies = 5;
-    [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float timeBetweenSpawns = 3f;
+    [SerializeField] float spawnRandomFactor = 0.5f;
+    [SerializeField] int numberOfEnemies = 1;
+    [SerializeField] float moveSpeed = 4f;
 
     public GameObject GetEnemyPrefab() { return molePrefab; }
 
@@ -24,11 +24,11 @@ public class WaveConfig : ScriptableObject
         return waveWaypoints; 
     }
 
-    public float GetTimeBetweenSpawns() { return timeBetweenSpawns; }
+    public float GetTimeBetweenSpawns() { return Random.Range(0f, timeBetweenSpawns); }
 
     public float GetSpawnRandomFactor() { return spawnRandomFactor; }
 
     public int GetNumberOfEnemies() { return numberOfEnemies; }
 
-    public float GetMoveSpeed() { return moveSpeed; }
+    public float GetMoveSpeed() { return Random.Range(1f, moveSpeed); }
 }
