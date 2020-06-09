@@ -2,15 +2,15 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - EnemyPathing
+    - LevelController
     - LevelLoader
     - Mole
     - Score
     - Spawner
+    - Timer
     - WaveConfig
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -61,21 +61,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11320}
     - Class: 114
+      Script: {instanceID: 11360}
+    - Class: 114
       Script: {instanceID: 11472}
     - Class: 114
       Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 11872}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 11948}
+      Script: {instanceID: 11874}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 11952}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 12194}
+    - Class: 114
+      Script: {instanceID: 12476}
+    - Class: 114
+      Script: {instanceID: 12704}
+    - Class: 114
+      Script: {instanceID: 13016}
+    - Class: 114
+      Script: {instanceID: 13088}
+    - Class: 114
+      Script: {instanceID: 13120}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -122,17 +134,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 12190}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12704}
     - Class: 114
-      Script: {instanceID: 13012}
+      Script: {instanceID: 13016}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 13088}
     - Class: 114
-      Script: {instanceID: 13116}
+      Script: {instanceID: 13120}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -181,19 +193,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 11872}
+      Script: {instanceID: 11874}
     - Class: 114
-      Script: {instanceID: 12190}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 12476}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12704}
     - Class: 114
-      Script: {instanceID: 13012}
+      Script: {instanceID: 13016}
     - Class: 114
-      Script: {instanceID: 13084}
+      Script: {instanceID: 13088}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -387,6 +399,12 @@ ScriptsOnlyBuild:
     className: EnemyPathing
   - hash:
       serializedVersion: 2
+      Hash: de4e8dad2578aecdf3d5a349d6f6b750
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelController
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -421,6 +439,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Mole
+  - hash:
+      serializedVersion: 2
+      Hash: ceaf5a2168ba35479e2a0d69ac4dd258
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer
   - hash:
       serializedVersion: 2
       Hash: f5e27267e77db70acb5566be1aa24000
