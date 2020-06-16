@@ -23,6 +23,7 @@ public class Score : MonoBehaviour
     public void AddToScore()
     {
         initialScore += 1;
+        PlayerPrefs.SetInt("Score", initialScore);
     }
 
     int GetScore()
