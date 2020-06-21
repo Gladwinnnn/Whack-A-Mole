@@ -11,12 +11,6 @@ public class LevelLoader : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void LoadOptionMenu()
-    {
-        SceneManager.LoadScene("Option Menu");
-        Time.timeScale = 1;
-    }
-
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("Start Menu");
